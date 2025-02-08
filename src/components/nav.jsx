@@ -17,10 +17,10 @@ function Nav() {
             <span className="absolute bottom-0 left-0 h-0 w-[2px] bg-[#D8A7B1] transition-all delay-300 duration-100 group-hover:h-full"></span>
           </button>))}
         </div>
-        <button className="relative overflow-hidden text-[#D8A7B1] border border-[#D8A7B1] rounded-lg cursor-pointer bg-[#1E1D1F] w-52 h-12 group">
+        <a href="https://www.linkedin.com/in/base-shai-frederick-r-a58a01297/" className="relative overflow-hidden text-[#D8A7B1] border border-[#D8A7B1] rounded-lg cursor-pointer bg-[#1E1D1F] w-52 h-12 flex items-center justify-center group">
           <span className="absolute bottom-[-150%] right-[-100%] w-full h-full bg-white rounded-full transition-all duration-300 ease-in-out group-hover:bottom-0 group-hover:right-0 scale-150"></span>
           <span className="relative z-10 transition-colors duration-300 group-hover:text-black">Let's Connect!</span>
-        </button>
+        </a>
 
       </div>
     </div>
