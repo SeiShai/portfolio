@@ -1,11 +1,9 @@
-import { useState } from "react";
 import profile from "../assets/images/png/profile.png";
 
 function Hero() {
-    const [count, setCount] = useState(0);
 
     return (
-        <div className="flex items-center p-24 w-screen h-screen -mt-24">
+        <div className="flex items-center p-24 w-full h-screen">
             {/* Text Section */}
             <div className="flex flex-col items-start justify-center space-y-6 w-full md:w-2/3">
                 <h1 className="text-4xl md:text-6xl text-white">Welcome to my <span className="text-[#D8A7B1]">Portfolio!</span></h1>

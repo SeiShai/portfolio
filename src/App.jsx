@@ -1,30 +1,29 @@
-import { useState } from "react";
 import Nav from "./components/nav";
 import Circle from "./components/circle";
 import Hero from "./components/hero";
 import Cta from "./components/cta";
+import Exp from "./components/exp";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="relative h-screen w-screen bg-[#1E1D1F] p-0 m-0">
+      <div className="relative flex flex-col items-center h-full w-full bg-[#1E1D1F] overflow-y-auto">
         {/* Faded Circular Glow in Upper Left */}
         <Circle />
 
-        {/* Navbar and Content */}
+        {/* Navbar */}
         <Nav />
 
-        {/* Hero */}
+        {/* CTA */}
+        <Cta />
+
+        {/* Hero Section */}
         <Hero />
 
-        {/* CTA */}
-        <div className="absolute bottom-4 right-4 transform -translate-x-1/2 flex flex-col gap-4">
-          <Cta />
-        </div>
-
+        {/* Experience Section (Now Below Hero) */}
+        <Exp />
       </div>
+
     </>
   );
 }
